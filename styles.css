@@ -1,0 +1,227 @@
+/* adamina-regular - latin */
+@font-face {
+    font-family: "Gotham Pro";
+    src: url("./fonts/GothaProBla.otf") format("opentype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "Gotham Pro Reg";
+    src: url("./fonts/GothaProReg.otf") format("opentype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+
+.main {
+    max-width: 480px;
+    margin: 0 auto;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+
+.intro {
+    background: url('./img/intro_bg.jpg');
+    text-align: center;
+    padding: 34px 29px 0 46px;
+    height: 579px;
+    margin-bottom: 16px;
+}
+
+.heading_title {
+
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #48509A;
+}
+
+.heading_subtitle {
+    font-family: "Gotham Pro Reg";
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 7px;
+}
+
+.heading_discount {
+    transform: translateX(100px);
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 67px;
+    text-align: center;
+    color: #FAFF00;
+}
+
+
+
+
+.timer {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.timer_title {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 92.7%;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.timer_num {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.timer_item {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 92.7%;
+    color: #000000;
+
+    background: #C4C4C4;
+    border-radius: 3px;
+    padding: 14px 11px;
+}
+
+.timer_item:not(:last-child) {
+    margin-right: 13px;
+}
+
+.dots {
+    background: none;
+
+}
+
+.timer_text {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Gotham Pro Reg";
+    padding: 0 30px;
+}
+
+.timer_detail {
+    font-size: 24px;
+    line-height: 92.7%;
+    color: #000000;
+}
+
+
+
+
+
+.advantages_items {
+    background: #4A519A;
+    display: flex;
+    padding: 10px 25px;
+}
+
+.advantages_item {
+    text-align: center;
+
+}
+
+.advantages_item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.advantages_img {
+    background: white;
+    padding: 12px;
+    border-radius: 50%;
+    margin-bottom: 9px;
+}
+
+.advantages_text {
+    font-family: "Gotham Pro Reg";
+    font-size: 15px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 9px;
+}
+
+
+
+
+.discount_items {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+
+.discount_item {
+    font-family: "Gotham Pro Reg";
+    text-align: center;
+}
+
+.first_discount_item {
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 118.7%;
+    text-align: center;
+    color: #000000;
+    background: #E0DDDD;
+    width: 50%;
+    padding: 5px 10% 5px 5px;
+}
+
+.second_discount_item {
+    position: absolute;
+    padding: 20px 5px;
+    font-weight: bold;
+    font-size: 21.6px;
+    line-height: 92.7%;
+    color: #FFFFFF;
+    background: #FF0000;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    transform: translateY(-10px);
+}
+
+.third_discount_item {
+    font-size: 25px;
+    line-height: 118.7%;
+    text-align: center;
+    color: #000000;
+    background: #FFE600;
+    width: 50%;
+    padding: 5px 5px 5px 10%;
+}
+
+.discount_price {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+.to_order {
+    text-align: center;
+}
+
+.btn_to_order {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 92.7%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: linear-gradient(183.07deg, #8793FF 28.77%, #474F9A 97.45%);
+    box-shadow: 0px 22px 44px -12px rgba(37, 70, 144, 0.35);
+    border-radius: 100px;
+    padding: 23px;
+    width: 100%;
+}
